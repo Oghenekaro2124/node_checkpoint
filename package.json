@@ -1,6 +1,18 @@
 {
   "dependencies": {
     "generate-password": "^1.7.1",
+    "http_work": "file:",
     "nodemailer": "^6.9.15"
-  }
+  },
+  "name": "http_work",
+  "version": "1.0.0",
+  "description": "This project contains a series of guided exercises to help you get started with Node.js. Each task demonstrates fundamental features of Node.js like creating a server, working with the file system, generating random passwords, and sending emails.",
+  "main": "email-sender.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Kelvin Boniface",
+  "license": "ISC"
 }

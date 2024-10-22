@@ -17,7 +17,7 @@ const mailOptions = {
   text: 'Hello from Node.js!'        // Email body
 };
 
-// Send email using the transporter
+// Send email using the transporter 
 transporter.sendMail(mailOptions, (error, info) => {
   if (error) {
     console.log('Error:', error);   // Print error if sending fails
